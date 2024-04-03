@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/style.css">
+    <style>
+        #header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+    </style>
+    <script src="https://kit.fontawesome.com/a088020bbf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo1.jpg" class="logo">
+            <ul id="menu">
+                <li><a href="#header">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#portfolio">PRODUCT</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars"onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1><span>P.S Bouquet</span><br></h1>
+        </div>
+    </div>
+   </div>
+   <!----------about------>
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/image.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub">About Us</h1>
+                <p>P.S Bouquet is a small business that contains products made out of ribbons. Our Products are also affordable yet beautifully crafted and not skimped on because it is handmade.
+
+                    We ought to give our customers satisfaction and happiness towards their orders as well as those who receive our products.
+                    
+                    We also ensure that our products are not only clean and well made, we also ensure the smooth and safe delivery and transactions of our products to our beloved customers and supporters.<br></p>
+                
+        </div>
+        <a href="#" class="btn">Back To Top</a>
+    </div>
+   </div>
+   <!-------Portfolio--------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub">Sample Product</h1>
+        <div class="project">
+            <div class="project">
+                <div class="work">
+                    <img src="images/p1.jpg" >
+                    <div class="layer">
+                    <H3>Product</H3>
+                    </div>
+                </div>
+             </div>
+            <div class="project">
+                <div class="work">
+                    <img src="images/p2.jpg" >
+                    <div class="layer">
+                    <H3>Product</H3>
+                    </div>
+                </div>
+             </div>
+             <div class="project">
+                <div class="work">
+                    <img src="images/p3.jpg" >
+                    <div class="layer">
+                    <H3>Product</H3>
+                    </div>
+                </div>
+             </div>
+             <div class="project">
+                <div class="work">
+                    <img src="images/p5.jpg" >
+                    <div class="layer">
+                    <H3>Product</H3>
+                    </div>
+                </div>
+             </div>
+             <div class="project">
+                <div class="work">
+                    <img src="images/p6.jpg" >
+                    <div class="layer">
+                    <H3>Product</H3>
+                    </div>
+                </div>
+             </div>
+             <div class="project">
+                <div class="work">
+                    <img src="images/p8.jpg" >
+                    <div class="layer">
+                    <H3>Product</H3>
+                    </div>
+                </div>
+             </div>
+             <div class="project">
+                <div class="work">
+                    <img src="images/p7.jpg" >
+                    <div class="layer">
+                    <H3>Product</H3>
+                    </div>
+                </div>
+             </div>
+             <div class="project">
+                <div class="work">
+                    <img src="images/pl1.jpg" >
+                    <div class="layer">
+                    <H3>Menu</H3>
+                    </div>
+                </div>
+             </div>
+             <div class="project">
+                <div class="work">
+                    <img src="images/pl2.jpg" >
+                    <div class="layer">
+                    <H3>Menu</H3>
+                    </div>
+                </div>
+             </div>
+             <div class="project">
+                <div class="work">
+                    <img src="images/Wrapper.jpg" >
+                    <div class="layer">
+                    <H3>Wrapper</H3>
+                    </div>
+                </div>
+             </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+   <!-------Contact--------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h2 class="sub">Contact Me</h2>
+                <p><i class="fa-solid fa-paper-plane"></i> jorickbuenafe@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 09123456789</p>
+                <div class="s-icon">
+                    <a href="https://www.facebook.com/profile.php?id=100064082411356"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/p.s_bouquet/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="contact-right"></div>
+            <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="text" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<script src="script/script.js"></script>
+<script src="script/sidemenu.js"></script>
+</body>
+</html>
